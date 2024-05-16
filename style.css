@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: repeating-linear-gradient(
+        45deg,
+        #eee,
+        #eee 10px,
+        #ddd 10px,
+        #ddd 20px
+    );
+}
+
+
+h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#choices button:hover {
+    background-image: linear-gradient(to bottom, #6814144f 0%, #871919 100%); /* Change gradient on hover */
+}
+
+
+#choices button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Add rounded corners for a square with rounded edges */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: monospace; /* Use a monospaced font */
+}
+
